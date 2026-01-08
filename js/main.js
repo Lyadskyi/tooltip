@@ -1,9 +1,6 @@
 const tooltip = document.querySelector('.tooltip');
 const tooltipAnchor = document.querySelector('.tooltip__anchor');
 
-// console.log(tooltip);
-// console.log(tooltipAnchor);
-
 const showTooltip = () => {
 	tooltip.classList.remove('hidden');
 };
